@@ -15,7 +15,7 @@ def main():
 
     if pokemon_info:
         # Translate Pokemon name
-        translated_name = "translator.translate(pokemon_name, target_language="fr")"
+        translated_name = translator.translate(pokemon_name, target_language="fr")
 
         # Generate and save PDF report
         output_pdf = "pokemon_report.pdf"
